@@ -12,5 +12,5 @@ trigger Customer_After_Insert on APEX_Customer__c (after update) {
    }
    
    // DML to insert the Invoice List in SFDC
-   insert InvoiceList;
+
 }
